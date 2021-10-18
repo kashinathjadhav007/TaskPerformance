@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Assets/images/slider1.jpg");
+}
+.container{
+    margin: 0 auto;
+    
+    
+}
+nav{
+   
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid transparent;
+}
+nav .logo{
+    float: left;
+    padding: 15px;
+}
+ul{
+    display: flex;
+    float: right;
+    top: 15px; 
+    padding: 35px;
+}
+li{
+    padding: 10px;
+    list-style: none;
+    
+}
+a{  
+    font-size: 13px;
+    color:rgb(252,252,253);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+a:hover
+{
+    color: yellow;
+}
+.heading-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.heading-text h3{
+    font-size: 35px;
+}
+.heading-text h3 span{
+    color: rgb(24,207,171);
+}
+.heading-text h2{
+    font-size: 60px;
+}
+.heading-text h3{
+    font-size: 34px;
+}
+#button1{
+    font-size: 13px;
+    background-color: rgb(24,207,171);
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    border-top: 6px solid #fff;
+}
+#button2{
+   
+    font-size: 13px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(0,203,246);
+    border-top: 6px solid #fff;
+    
+}
+
+.about{
+    width: 100%;
+    display: flex;
+}
+.about1{
+    width: 25%;
+ 
+    color: #fff;
+    background-color: #1c2a33;
+    text-align: center;
+    border-top: 7px solid #fff;
+    
+}
+.about2{
+    width: 25%;
+   
+    color: #fff;
+    background-color: #18cfab;
+    text-align: center;
+    border-top: 7px solid #fff;
+    
+}
+.about3{
+    width: 25%;
+   
+    color: #fff;
+    background-color: #1c2a33;
+    text-align: center;
+    border-top: 7px solid #fff;
+    
+} 
+.about4{
+    width: 25%;
+    /* float: left; */
+    color: #fff;
+    background-color: #18cfab;
+    text-align: center;
+    border-top: 7px solid #fff;
+   
+}
+.about1 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.about2 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.about3 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 45px;
+}
+.about4 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 45px;
+}
+
+.about1 img{
+    margin-top: 60px;
+}
+.about2 img{
+    margin-top: 60px;
+}
+.about3 img{
+    margin-top: 60px;
+}
+.about4 img{
+    margin-top: 60px;
+}
+
+
+
+
+/* skill :start */
+
+.third{
+    margin: 0 auto;
+    
+}
+.feature{
+    width: 100%;
+    margin-top:30px;
+}
+
+.feature h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 30px;
+}
+.feature img{
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.mainblog1, .mainblog2, .mainblog3
+{
+   
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    justify-content:center;
+}
+
+.blog1,.blog2,.blog3,.blog4,.blog5,.blog6,.blog7,.blog8,.blog9{
+    width:30%;
+    height: 40px;
+    padding: 20px;
+  }
+  .blog1, .blog2, .blog3, .blog4,.blog5,.blog6,.blog7,.blog8,.blog9 h3{
+      font-size: 18px;
+      line-height: 40px;
+      color:rgb(51,117,162);
+  } 
+ 
+  .paragraph{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'montserratlight';
+    color: #777777;
+    text-align: justify;
+}
